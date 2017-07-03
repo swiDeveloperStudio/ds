@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ENV LEGATO_SPM_VERSION 13
+ENV LEGATO_SPM_VERSION 14
 
 RUN apk add --no-cache wget && \
 	mkdir -p -m 777 /legato-spm && \
